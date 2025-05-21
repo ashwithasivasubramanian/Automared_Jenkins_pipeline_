@@ -15,4 +15,5 @@ public class FactorialTest {
         Factorial f = new Factorial();
         f.compute(-1);
     }
+}
     
