@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-org/your-java-repo.git', branch: 'main'
+                git url: 'https://github.com/ashwithasivasubramanian/Automared_Jenkins_pipeline_.git', branch: 'main'
             }
         }
 
