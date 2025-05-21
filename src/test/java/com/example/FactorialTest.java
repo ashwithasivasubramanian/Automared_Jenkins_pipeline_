@@ -4,6 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class FactorialTest {
+
     @Test
     public void testFactorialOf5() {
         Factorial f = new Factorial();
@@ -15,5 +16,17 @@ public class FactorialTest {
         Factorial f = new Factorial();
         f.compute(-1);
     }
+
+    @Test
+    public void testFactorialOf0() {
+        Factorial f = new Factorial();
+        assertEquals(1, f.compute(0)); // 0! = 1
+    }
+
+    @Test
+    public void testFactorialOf3() {
+        Factorial f = new Factorial();
+        assertEquals(6, f.compute(3)); // 3! = 6
+    }
 }
-    
+
