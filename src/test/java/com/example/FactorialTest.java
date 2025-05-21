@@ -20,13 +20,13 @@ public class FactorialTest {
     @Test
     public void testFactorialOf0() {
         Factorial f = new Factorial();
-        assertEquals(1, f.compute(0)); // 0! = 1
+        assertEquals(1, f.compute(0)); 
     }
 
     @Test
     public void testFactorialOf3() {
         Factorial f = new Factorial();
-        assertEquals(6, f.compute(3)); // 3! = 6
+        assertEquals(6, f.compute(3)); 
     }
 }
 
