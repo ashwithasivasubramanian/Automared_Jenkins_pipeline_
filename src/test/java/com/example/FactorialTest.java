@@ -26,7 +26,7 @@ public class FactorialTest {
     @Test
     public void testFactorialOf3() {
         Factorial f = new Factorial();
-        assertEquals(6, f.compute(3)); 
+        assertEquals(6, f.compute(3));
     }
 }
 
